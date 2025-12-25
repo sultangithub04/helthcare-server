@@ -20,7 +20,7 @@ app.post(
 );
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:3001'],
+    origin: ['http://localhost:3000', 'http://localhost:3001', 'https://helthcare-fontend.vercel.app'],
     credentials: true
 }));
 
@@ -40,7 +40,7 @@ cron.schedule('*/5 * * * *', () => {
 
 app.get('/', (req: Request, res: Response) => {
     res.send({
-        Message: "Ph health care server.."
+        Message: "Doctor Point health care server.."
     })
 });
 
