@@ -5,5 +5,9 @@ node_modules
 /generated/prisma
 
 .vercel
-
+dist/
+.env.local
+uploads/*
+!uploads/.gitkeep
+*.log
 render.yaml
