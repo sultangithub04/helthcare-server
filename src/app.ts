@@ -20,7 +20,7 @@ app.post(
 );
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:3001', 'https://helthcare-fontend.vercel.app'],
+    origin: ['http://localhost:3000', 'http://localhost:3001', 'https://helthcare-fontend.vercel.app',"https://helthcare-fontend-git-main-sultan-ahamads-projects.vercel.app"],
     credentials: true
 }));
 
